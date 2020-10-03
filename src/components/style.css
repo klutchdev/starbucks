@@ -1,0 +1,60 @@
+:root {
+  --white: #fefefe;
+  --light: #f7f7f7;
+
+  --ceramic: #edebe9;
+
+  --light-grey: #737373;
+  --grey: #595959;
+  --dark-grey: #343434;
+
+  --black: #030405;
+  --dark: #131415;
+
+  --starbucks-green: #00653e;
+  --apron-green: #00a862;
+  --apron-dark-green: #008248;
+
+  --accent: #d4e9e2;
+  --accent-dark: #1E3932;
+
+  --secondary: #b64c7e;
+  --secondary-dark: #980148;
+
+  --rewards-gold: #d4a04c;
+
+  --warning-yellow: #fbbc05;
+  --error-red: #e75b52;
+
+  --text-dark: #000000de;
+  --text-dark-soft: #00000085;
+  --text-light: var(--ceramic);
+  --text-light-soft: #edebe9b3;
+  --text-green: var(--starbucks-green);
+  --text-secondary: var(--accent-dark);
+
+}
+
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+
+/* --------------------/ Breakpoints /-------------------- */
+
+@media screen and (max-width: 480px) {
+  /* Small / mobile */
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  /* Medium / tablet */
+}
+
+@media screen and (min-width: 1024px) {
+  /* Large / desktop */
+}

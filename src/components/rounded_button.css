@@ -1,0 +1,28 @@
+button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-content: center;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.rounded-button {
+  margin: 1rem;
+  padding: 0.5rem 1.5rem;
+  max-width: 120px;
+  max-height: 50px;
+  border-radius: 50px;
+  outline: none;
+  box-shadow: #06060650 2px 2px 12px;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.rounded-button:hover {
+  box-shadow: #06060625 1.5px 1.5px 10px;
+  filter: invert(0.1) grayscale(0.9);
+}

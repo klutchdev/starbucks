@@ -1,0 +1,163 @@
+@import './style.css';
+
+/* ----- / Navigation /------ */
+nav {
+  z-index: 10;
+  padding: 0.5rem;
+  margin: 0;
+  width: 100vw;
+  height: 4rem;
+  background: #f7f7f7;
+  position: absolute;
+  top: 0;
+  box-shadow: #06060650 1px 1px 8px;
+}
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.navbar-nav {
+  padding: 1rem;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateX(-110%);
+}
+
+
+
+/* ----- / Containers /------ */
+.brand-container {
+  padding: 0;
+  margin: 0 1rem 0 auto;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.brand-container svg {
+  height: 70%;
+  top: 0.5rem;
+  left: 3rem;
+}
+
+.burger-container {
+  padding: 1rem;
+  margin: 0 auto 0 2rem;
+  height: 4rem;
+  width: 4rem;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.burger-container svg {
+  margin: 0;
+  padding: 0;
+  height: 50%;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  color: #131415aa;
+  border-radius: 8px;
+}
+
+.nav-buttons-container {
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.find-store-container {
+  padding: 0;
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  vertical-align: middle;
+}
+
+.geo-container {
+  padding: 0;
+  margin: 0;
+  margin-right: 1rem;
+  height: 3rem;
+  width: 3rem;
+}
+
+
+
+
+/* ----- / Menu items /------ */
+.menu-dropdown {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  vertical-align: middle;
+}
+
+.menu-link-left {
+  padding: 0;
+  margin: 0;
+  margin-right: auto;
+  margin-left: 1rem;
+  text-align: left;
+}
+
+.menu-link-right {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: 1rem;
+  width: 3rem;
+  height: 3rem;
+  text-align: right;
+}
+
+.menu-link-text {
+  padding: 0;
+  margin: 0;
+  font-size: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-item {
+  padding: 0;
+  margin: 0;
+}
+
+nav a {
+  color: inherit;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav a:hover {
+  filter: opacity(0.8);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  padding: 0;
+  margin: 0;
+}
